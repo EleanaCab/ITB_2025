@@ -1,0 +1,19 @@
+---
+title: "Resources"
+listing:
+  id: resources-listings
+  contents: resources
+  sort: "date asc"
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+date-format: iso
+---
+
+Resources below:
+
+::: {#resources-listings}
+:::

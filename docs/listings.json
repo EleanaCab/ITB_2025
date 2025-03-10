@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/lectures.html",
+    "items": [
+      "/lectures/lecture_1.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/resource_1_oscer.html"
+    ]
+  }
+]

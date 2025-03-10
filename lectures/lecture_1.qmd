@@ -1,0 +1,8 @@
+---
+title: "OSCER and BASH go hand in hand"
+author: 
+  - name: Eleana Cabello
+    affiliation: Department of Microbiology and Immunology, OUHSC
+description: "Linux is fun"
+date: 2025-06-01
+---

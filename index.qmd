@@ -1,11 +1,14 @@
 ---
-title: "ITB_2025"
+title: "Introduction to Bioinformatics Course"
 ---
 
-This is a Quarto website.
+# Glad you made it!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Overview
+This course explores bioinformatics methods and their applications to current questions in biomedical sciences. The course will provide instruction and insight into computational solutions for addressing specific biological problems, emphasizing commonly used software tools and the application of these tools to specific problems.
 
-```{r}
-1 + 1
-```
+## Course Information
+- Course Staff: Dr. David Dyer, Eleana Cabello, Hande Acar
+- Lectures: 10:00-11:30am Tuesday and Thursday
+- Location: TBD
+- Office Hours: TBD

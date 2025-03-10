@@ -1,0 +1,6 @@
+---
+title: "Setting up and using OSCER"
+author: 
+  - name: Eleana Cabello
+    affiliation: Department of Microbiology and Immunology, OUHSC
+---

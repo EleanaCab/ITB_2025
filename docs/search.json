@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ITB_2025",
+    "title": "Introduction to Bioinformatics Course",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This course explores bioinformatics methods and their applications to current questions in biomedical sciences. The course will provide instruction and insight into computational solutions for addressing specific biological problems, emphasizing commonly used software tools and the application of these tools to specific problems.\n\n\n\n\nCourse Staff: Dr. David Dyer, Eleana Cabello, Hande Acar\nLectures: 10:00-11:30am Tuesday and Thursday\nLocation: TBD\nOffice Hours: TBD"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,75 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Course content for each lecture is below:\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-01\n\n\nOSCER and BASH go hand in hand\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/lecture_1.html",
+    "href": "lectures/lecture_1.html",
+    "title": "Welcome to the Course!",
+    "section": "",
+    "text": "The course will exclusively use R in the integrated development environment (IDE) called R Studio. Since the summer semester is only 1 month (10 classes), it is critical to have your computer set up and ready to go before the first day of class.\nThroughout the course, there will be a set of pre-lecture activities and/or readings for you to complete. These activities prepare you for the in-class activities. Failure to complete them will put you behind in an already compressed course.\nTo prepare for the first class:\n\nInstall R and R Studio\n\ninstallation video tutorial\nDetailed instructions on installing R and R Studio are available on swirl.\n\nComplete step 1 and step 2\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nSwirl is a great tool to learn R interactively that we will use in the course. Feel free to explore more.\n\n\n\nIn the first class, we will begin to get familiar with R. Complete the Pre-reading material about R. Pre-reading materials for each class are located under Resources. Sometimes, pre-reading materials are direct links to external resources for you to read in advance of the lecture."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#learning-objectives",
+    "href": "lectures/lecture_1.html#learning-objectives",
+    "title": "Welcome to the Course!",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:\n\nGet an overview of the course (including staff, format, grading, etc)\nBe able to recognize and operate an Integrated Developer Environment (IDE).\nBe able to recognize a Quarto document and describe reasons why to use a unified authoring framework.\nBe able to create a R project & Quarto document."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#slides",
+    "href": "lectures/lecture_1.html#slides",
+    "title": "Welcome to the Course!",
+    "section": "Slides",
+    "text": "Slides\n\nLecture 01: Welcome and Introductions"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#acknowledgements",
+    "href": "lectures/lecture_1.html#acknowledgements",
+    "title": "Welcome to the Course!",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nMaterial for this lecture was borrowed and adopted from\n\nsw carpentry: https://carpentries-incubator.github.io/bioc-intro/20-r-rstudio.html\ndata carpentry: https://datacarpentry.github.io/genomics-r-intro/00-introduction.html"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#summary",
+    "href": "lectures/lecture_1.html#summary",
+    "title": "Welcome to the Course!",
+    "section": "Summary",
+    "text": "Summary\n\nAccess all course material on the course website (https://lindsaynhayes.github.io/introR2025/).\nRStudio makes you a more efficient programmer and gives you easy access to all the components of data analysis.\nQuarto is an open-source scientific and technical publishing system to create reproducible, production quality data analysis reports and much more. During the course we will primarily use the HTML output format."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#additional-practice",
+    "href": "lectures/lecture_1.html#additional-practice",
+    "title": "Welcome to the Course!",
+    "section": "Additional practice",
+    "text": "Additional practice\nHere are some additional practice questions to help you think about the material discussed.\nCheck out this article on the 10 Best Practices for Data Science here\n\n\n\n\n\n\nPractice Tasks\n\n\n\n\nIn RStudio, create a new R project and then create a new Quarto document in that R project. Read the instructions. Practice running the chunks individually using the “play” button and the keyboard short cut.\nChange the settings of the Quarto document to display the output “inline” or in the “console”.\nRender the document and view the HTML output. Verify that you can modify the code, re-run it, and see modified output."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Resources below:\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSetting up and using OSCER\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "Introduction to Bioinformatics Course",
+    "section": "",
+    "text": "Course Staff: Dr. David Dyer, Eleana Cabello, Hande Acar\nLectures: 10:00-11:30am Tuesday and Thursday\nLocation: TBD\nOffice Hours: TBD"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Introduction to Bioinformatics Course",
+    "section": "",
+    "text": "This course explores bioinformatics methods and their applications to current questions in biomedical sciences. The course will provide instruction and insight into computational solutions for addressing specific biological problems, emphasizing commonly used software tools and the application of these tools to specific problems."
   }
 ]

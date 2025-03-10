@@ -3,18 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "ITB_2025"
+  title: "Introduction to Bioinformatics"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - lectures.qmd
+      - resources.qmd
+      - project.qmd
 
 format:
   html:
-    theme: journal
-    css: styles.css
+    theme: Zephyr
     toc: true
+    css: styles.css
 
 
 
