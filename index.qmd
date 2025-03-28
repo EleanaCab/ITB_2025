@@ -2,13 +2,80 @@
 title: "Introduction to Bioinformatics Course"
 ---
 
-# Glad you made it!
+Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.
 
-## Overview
-This course explores bioinformatics methods and their applications to current questions in biomedical sciences. The course will provide instruction and insight into computational solutions for addressing specific biological problems, emphasizing commonly used software tools and the application of these tools to specific problems.
+# Course Calendar
+```{=html}
+<table>
+  <thead>
+    <tr>
+      <th colspan="5" style="text-align: center;">June</th>
+    </tr>
+    <tr>
+      <th style="text-align: center">Mon</th>
+      <th style="text-align: center">Tue</th>
+      <th style="text-align: center">Wed</th>
+      <th style="text-align: center">Thu</th>
+      <th style="text-align: center">Fri</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>2</td>
+    <td>3<br>Working in OSCER and BASH</td>
+    <td>4</td>
+    <td>5<br>16S rRNA Microbiome Analysis</td>
+    <td>6</td>
+    </tr>
+    <tr>
+    <td>9</td>
+    <td>10<br>16S rRNA Microbiome Analysis</td>
+    <td>11</td>
+    <td>12<br>Bulk RNA-seq and Consensus Pathway Analysis</td>
+    <td>13</td>
+    </tr>
+    <tr>
+    <td>16</td>
+    <td>17<br>Introduction to Data Science</td>
+    <td>18</td>
+    <td>19<br>Course Project Help Session</td>
+    <td>20</td>
+    </tr>
+    <tr>
+    <td>23</td>
+    <td>24<br>In-class Presentations</td>
+    <td>25</td>
+    <td>26<br>In-class Presentations</td>
+    <td>27</td>
+    </tr>
+  </tbody>
+</table>
+```
 
-## Course Information
-- Course Staff: Dr. David Dyer, Eleana Cabello, Hande Acar
-- Lectures: 10:00-11:30am Tuesday and Thursday
-- Location: TBD
-- Office Hours: TBD
+# Course Information
+```{=html}
+<table border="0">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+    <td><b>Course Staff</b></td>
+    <td>Dave Dyer<br>Professor Emeritus,<br>Department of Microbiology and Immunology</td>
+    <td>Eleana Cabello<br>Bioinformatics Analyst for OK-INBRE,<br>Department of Microbiology and Immunology</td>
+    <td>Hande Acar<br>Sr Bioinformatics Analyst for IRCF</td>
+    </tr>
+    <tr>
+    <td><b>Lecture Times</b></td>
+    <td>Tue and Thu<br>10:00 - 11:30am</td>
+    </tr>
+    <tr>
+    <td><b>Location</b></td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td><b>Office Hours</b></td>
+    <td>TBD</td>
+    </tr>
+  </tbody>
+</table>
+```

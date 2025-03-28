@@ -5,7 +5,7 @@ project:
 website:
   title: "Introduction to Bioinformatics"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - lectures.qmd
@@ -14,9 +14,8 @@ website:
 
 format:
   html:
-    theme: Zephyr
+    theme: styles.scss
     toc: true
-    css: styles.css
 
 
 
