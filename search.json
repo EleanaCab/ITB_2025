@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Resources below:\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "lectures/lecture_1.html",
     "href": "lectures/lecture_1.html",
     "title": "OSCER and BASH, BASH and OSCER",
@@ -49,13 +56,6 @@
     "text": "Structure\n#!/usr/bin/bash -l\n#SBATCH --partition=sooner_test\n#SBATCH --container=el9hw\n#SBATCH --nodes=1\n#SBATCH --ntasks=1\n#SBATCH --cpus-per-task=1\n#SBATCH --mem=30G\n#SBATCH --time=15:00:00\n#SBATCH --chdir=/scratch/jrada\n#SBATCH --output=gallus_%J_stdout.txt\n#SBATCH --error=gallus_%J_stderr.txt\n\n#==============================================================================\n# BASH Strict mode (i.e. \"fail fast\" to reduce hard-to-find bugs)\nset -e          # EXIT the script if any command returns non-zero exit status.\nset -E          # Make ERR trapping work inside functions too.\nset -u          # Variables must be pre-defined before using them.\nset -o pipefail # If a pipe fails, returns the error code for the failed pipe\n                #  even if it isn't the last command in a series of pipes.\n#=============================================================================="
   },
   {
-    "objectID": "resources/resource_1_oscer.html",
-    "href": "resources/resource_1_oscer.html",
-    "title": "What is OSCER?",
-    "section": "",
-    "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Introduction to Bioinformatics Course",
@@ -63,11 +63,18 @@
     "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\n3\nWorking in OSCER and BASH\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n10\n16S rRNA Microbiome Analysis\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\n17\nIntroduction to Data Science\n18\n19\nCourse Project Help Session\n20\n\n\n23\n24\nIn-class Presentations\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
     "section": "",
-    "text": "Resources below:\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Course content for each lecture is below:\n\n\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nAssignment 1\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/resource_1_oscer.html",
+    "href": "resources/resource_1_oscer.html",
+    "title": "What is OSCER?",
+    "section": "",
+    "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
   },
   {
     "objectID": "lectures.html",

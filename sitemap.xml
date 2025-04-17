@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://EleanaCab.github.io/ITB_2025/resources.html</loc>
+    <lastmod>2025-04-17T20:15:19.747Z</lastmod>
+  </url>
+  <url>
     <loc>https://EleanaCab.github.io/ITB_2025/lectures/lecture_1.html</loc>
-    <lastmod>2025-04-17T21:29:05.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://EleanaCab.github.io/ITB_2025/resources/resource_1_oscer.html</loc>
-    <lastmod>2025-04-17T21:29:05.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://EleanaCab.github.io/ITB_2025/project.html</loc>
-    <lastmod>2025-04-17T21:29:05.033Z</lastmod>
+    <lastmod>2025-04-17T20:15:19.746Z</lastmod>
   </url>
   <url>
     <loc>https://EleanaCab.github.io/ITB_2025/index.html</loc>
-    <lastmod>2025-04-17T21:29:05.032Z</lastmod>
+    <lastmod>2025-04-17T20:15:19.746Z</lastmod>
   </url>
   <url>
-    <loc>https://EleanaCab.github.io/ITB_2025/resources.html</loc>
-    <lastmod>2025-04-17T21:29:05.033Z</lastmod>
+    <loc>https://EleanaCab.github.io/ITB_2025/assignments/assignment_1.html</loc>
+    <lastmod>2025-04-17T21:39:00.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/ITB_2025/assignments.html</loc>
+    <lastmod>2025-04-17T21:37:21.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/ITB_2025/resources/resource_1_oscer.html</loc>
+    <lastmod>2025-04-17T20:15:19.747Z</lastmod>
   </url>
   <url>
     <loc>https://EleanaCab.github.io/ITB_2025/lectures.html</loc>
-    <lastmod>2025-04-17T21:29:05.032Z</lastmod>
+    <lastmod>2025-04-17T20:15:19.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/ITB_2025/project.html</loc>
+    <lastmod>2025-04-17T20:15:19.746Z</lastmod>
   </url>
 </urlset>
