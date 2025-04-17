@@ -4,70 +4,63 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Resources below:\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures/lecture_1.html",
     "href": "lectures/lecture_1.html",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "",
     "text": "Terminal - A text-based user interface that allows users to interact with a computer by typing commands\nDirectory - A folder location in your computer\nWorking Directory - The current directory a user is in\nPath - Directions to a folder or file\nCommand - BASH command to accomplish a task i.e. creating file, removing file, etc.\nCommand Flag - Modifications to a command to consider"
   },
   {
     "objectID": "lectures/lecture_1.html#common-commands",
     "href": "lectures/lecture_1.html#common-commands",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "Common Commands",
     "text": "Common Commands\n\nNavigating Directories\npwd       # Print wokring directory\nls        # List contents in a directory\nls -lh    # List contents in a directory in a list format and human read able sizes\ntree      # List directory and file tree\ncd SOME_DIR     # Change working directory to the entered directory \ncd ..           # Change working directory to parent directory of current directory\ncd ~            # Change working directory to home\n\n\nCreating, Moving, and Deleting Directories\nmkdir SOME_DIR    # Create directory\nrmdir SOME_DIR    # Remove Directory\nrm -r SOME_DIR    # Remove Directory\nmv ONE_DIR TWO_DIR # Move directory to new directory \n\n\nCreating, Deleting, Copying, and Moving Files\ntouch SOME_FILE.txt                   # Create new file\ntouch SOME_FILE.txt SOME_FILE.txt     # Create several new files\nrm foo.txt                        # Remove file\ncp SOME_FILE.txt SOME_FILE.txt    # Copy file to new directory\nmv SOME_FILE.txt SOME_FILE.txt    # Move file to new directory"
   },
   {
     "objectID": "lectures/lecture_1.html#piping",
     "href": "lectures/lecture_1.html#piping",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "Piping",
     "text": "Piping\nCMD1 SOME_FILE.txt | CMD2         # Structure\nls SOME_DIR | grep \"R1\"           # Example"
   },
   {
     "objectID": "lectures/lecture_1.html#standard-output",
     "href": "lectures/lecture_1.html#standard-output",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "Standard Output",
     "text": "Standard Output\necho \"some string\"                # Print to screen\nCMD SOME_FILE.txt &gt; NEW_FILE.txt            # Overwrite file with output\nCMD SOME_FILE.txt &gt;&gt; ADD_TO_EXISTING.txt    # Take output and add output to existing content in file\nCMD SOME_FILE.txt 1&gt; stdout.txt           # Redirect the standard output to a file\nCMD SOME_FILE.txt 2&gt; stderror.txt        # Redirect the standard error output to a file"
   },
   {
     "objectID": "lectures/lecture_1.html#file-editing",
     "href": "lectures/lecture_1.html#file-editing",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "File Editing",
     "text": "File Editing\nnano                    # Opens text editor to create new file\nnano file.txt            # Opens file in text editor"
   },
   {
     "objectID": "lectures/lecture_1.html#find-in-files",
     "href": "lectures/lecture_1.html#find-in-files",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "Find in Files",
     "text": "Find in Files\ngrep \"some-string\" SOME_FILE.txt    # Grabs lines in file that contain the string pattern"
   },
   {
     "objectID": "lectures/lecture_1.html#structure",
     "href": "lectures/lecture_1.html#structure",
-    "title": "OSCER and BASH, BASH and OSCER",
+    "title": "1 - OSCER and BASH, BASH and OSCER",
     "section": "Structure",
     "text": "Structure\n#!/usr/bin/bash -l\n#SBATCH --partition=sooner_test\n#SBATCH --container=el9hw\n#SBATCH --nodes=1\n#SBATCH --ntasks=1\n#SBATCH --cpus-per-task=1\n#SBATCH --mem=30G\n#SBATCH --time=15:00:00\n#SBATCH --chdir=/scratch/jrada\n#SBATCH --output=gallus_%J_stdout.txt\n#SBATCH --error=gallus_%J_stderr.txt\n\n#==============================================================================\n# BASH Strict mode (i.e. \"fail fast\" to reduce hard-to-find bugs)\nset -e          # EXIT the script if any command returns non-zero exit status.\nset -E          # Make ERR trapping work inside functions too.\nset -u          # Variables must be pre-defined before using them.\nset -o pipefail # If a pipe fails, returns the error code for the failed pipe\n                #  even if it isn't the last command in a series of pipes.\n#=============================================================================="
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction to Bioinformatics Course",
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
     "section": "",
-    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\n3\nWorking in OSCER and BASH\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n10\n16S rRNA Microbiome Analysis\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\n17\nIntroduction to Data Science\n18\n19\nCourse Project Help Session\n20\n\n\n23\n24\nIn-class Presentations\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "Course content for each lecture is below:\n\n\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nAssignment 1\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\n- Lesson\n\n\nEleana Cabello\n\n\n\n\n2025-06-02\n\n\n1 - OSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n2025-06-05\n\n\n2 - 16S rRNA Microbiome Analysis: Part 1\n\n\nEleana Cabello\n\n\n\n\n2025-06-09\n\n\n3 - 16S rRNA Microbiome Analysis: Part 2\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/resource_1_oscer.html",
@@ -77,10 +70,17 @@
     "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
   },
   {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
     "section": "",
-    "text": "Course content for each lecture is below:\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nAssignment 1\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Bioinformatics Course",
+    "section": "",
+    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\nWorking in OSCER and BASH\n3\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n16S rRNA Microbiome Analysis\n10\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\nIntroduction to Data Science\n17\n18\n19\nCourse Project Help Session\n20\n\n\n23\nIn-class Presentations\n24\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
   }
 ]

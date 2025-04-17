@@ -6,15 +6,18 @@
     ]
   },
   {
-    "listing": "/assignments.html",
+    "listing": "/lectures.html",
     "items": [
-      "/assignments/assignment_1.html"
+      "/lectures/lecture_template.html",
+      "/lectures/lecture_1.html",
+      "/lectures/lecture_2.html",
+      "/lectures/lecture_3.html"
     ]
   },
   {
-    "listing": "/lectures.html",
+    "listing": "/assignments.html",
     "items": [
-      "/lectures/lecture_1.html"
+      "/assignments/assignment_1.html"
     ]
   }
 ]
