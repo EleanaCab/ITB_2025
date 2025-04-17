@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Introduction to Bioinformatics"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - lectures.qmd
+      - resources.qmd
+      - project.qmd
+
+format:
+  html:
+    theme: styles.scss
+    toc: true
+
+execute:
+  freeze: auto
+
+
