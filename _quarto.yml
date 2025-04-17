@@ -17,5 +17,7 @@ format:
     theme: styles.scss
     toc: true
 
+execute:
+  freeze: auto
 
 

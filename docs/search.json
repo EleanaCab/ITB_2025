@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction to Bioinformatics Course",
-    "section": "",
-    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\n3\nWorking in OSCER and BASH\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n10\n16S rRNA Microbiome Analysis\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\n17\nIntroduction to Data Science\n18\n19\nCourse Project Help Session\n20\n\n\n23\n24\nIn-class Presentations\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Course content for each lecture is below:\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures/lecture_1.html",
-    "href": "lectures/lecture_1.html",
-    "title": "OSCER and BASH, BASH and OSCER",
-    "section": "",
-    "text": "Terminal - A text-based user interface that allows users to interact with a computer by typing commands\nDirectory - A folder location in your computer\nWorking Directory - The current directory a user is in\nPath - Directions to a folder or file\nCommand - BASH command to accomplish a task i.e. creating file, removing file, etc.\nCommand Flag - Modifications to a command to consider"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#learning-objectives",
-    "href": "lectures/lecture_1.html#learning-objectives",
-    "title": "Welcome to the Course!",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:\n\nGet an overview of the course (including staff, format, grading, etc)\nBe able to recognize and operate an Integrated Developer Environment (IDE).\nBe able to recognize a Quarto document and describe reasons why to use a unified authoring framework.\nBe able to create a R project & Quarto document."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#slides",
-    "href": "lectures/lecture_1.html#slides",
-    "title": "Welcome to the Course!",
-    "section": "Slides",
-    "text": "Slides\n\nLecture 01: Welcome and Introductions"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#acknowledgements",
-    "href": "lectures/lecture_1.html#acknowledgements",
-    "title": "Welcome to the Course!",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nMaterial for this lecture was borrowed and adopted from\n\nsw carpentry: https://carpentries-incubator.github.io/bioc-intro/20-r-rstudio.html\ndata carpentry: https://datacarpentry.github.io/genomics-r-intro/00-introduction.html"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#summary",
-    "href": "lectures/lecture_1.html#summary",
-    "title": "Welcome to the Course!",
-    "section": "Summary",
-    "text": "Summary\n\nAccess all course material on the course website (https://lindsaynhayes.github.io/introR2025/).\nRStudio makes you a more efficient programmer and gives you easy access to all the components of data analysis.\nQuarto is an open-source scientific and technical publishing system to create reproducible, production quality data analysis reports and much more. During the course we will primarily use the HTML output format."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#additional-practice",
-    "href": "lectures/lecture_1.html#additional-practice",
-    "title": "Welcome to the Course!",
-    "section": "Additional practice",
-    "text": "Additional practice\nHere are some additional practice questions to help you think about the material discussed.\nCheck out this article on the 10 Best Practices for Data Science here\n\n\n\n\n\n\nPractice Tasks\n\n\n\n\nIn RStudio, create a new R project and then create a new Quarto document in that R project. Read the instructions. Practice running the chunks individually using the “play” button and the keyboard short cut.\nChange the settings of the Quarto document to display the output “inline” or in the “console”.\nRender the document and view the HTML output. Verify that you can modify the code, re-run it, and see modified output."
-  },
-  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -70,39 +7,11 @@
     "text": "Resources below:\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#course-information",
-    "href": "index.html#course-information",
-    "title": "Introduction to Bioinformatics Course",
-    "section": "Course Information",
-    "text": "Course Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Introduction to Bioinformatics Course",
-    "section": "",
-    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\n3\nWorking in OSCER and BASH\n4\n5\n16S rRNA Microbiome analysis\n6\n\n\n9\n10\n16S rRNA Microbiome analysis\n11\n12\nBulk RNA-seq and Consensus Pathway analysis\n13\n\n\n16\n17\nIntroduction to Data Science\n18\n19\nCourse Project Help Session\n20\n\n\n23\n24\nIn-class presentations\n25\n26\nIn-class presentations\n27\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
-  },
-  {
-    "objectID": "resources/resource_1_oscer.html",
-    "href": "resources/resource_1_oscer.html",
-    "title": "What is OSCER?",
-    "section": "",
-    "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#common-commands-in-bash",
-    "href": "lectures/lecture_1.html#common-commands-in-bash",
+    "objectID": "lectures/lecture_1.html",
+    "href": "lectures/lecture_1.html",
     "title": "OSCER and BASH, BASH and OSCER",
     "section": "",
-    "text": "To navigate through the OSCER system you will have to use BASH commands. Below are the most often we use as analysts:\nls    #List contents in a directory\nls -lh    #List contents in a directory in a list format\ncd SOME_DIR   #Changes you into a new directory\nOther common commands to run:\nhead -LEN_LINES"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#how-to-structure-a-batch-script",
-    "href": "lectures/lecture_1.html#how-to-structure-a-batch-script",
-    "title": "OSCER and BASH, BASH and OSCER",
-    "section": "How to Structure a Batch Script",
-    "text": "How to Structure a Batch Script"
+    "text": "Terminal - A text-based user interface that allows users to interact with a computer by typing commands\nDirectory - A folder location in your computer\nWorking Directory - The current directory a user is in\nPath - Directions to a folder or file\nCommand - BASH command to accomplish a task i.e. creating file, removing file, etc.\nCommand Flag - Modifications to a command to consider"
   },
   {
     "objectID": "lectures/lecture_1.html#common-commands",
@@ -119,32 +28,18 @@
     "text": "Piping\nCMD1 SOME_FILE.txt | CMD2         # Structure\nls SOME_DIR | grep \"R1\"           # Example"
   },
   {
-    "objectID": "lectures/lecture_1.html#structure",
-    "href": "lectures/lecture_1.html#structure",
-    "title": "OSCER and BASH, BASH and OSCER",
-    "section": "Structure",
-    "text": "Structure\n#!/usr/bin/bash -l\n#SBATCH --partition=ircfhp\n#SBATCH --nodelist=c923\n#SBATCH --container=el9-devel\n#SBATCH --output=out_metaphlan_main_%A_%a_stdout.txt\n#SBATCH --error=out_metaphlan_main_%A_%a_stderr.txt\n#SBATCH --mail-user=eleana-cabello@ouhsc.edu\n#SBATCH --mail-type=ALL\n\n#==============================================================================\n# BASH Strict mode (i.e. \"fail fast\" to reduce hard-to-find bugs)\nset -e          # EXIT the script if any command returns non-zero exit status.\nset -E          # Make ERR trapping work inside functions too.\nset -u          # Variables must be pre-defined before using them.\nset -o pipefail # If a pipe fails, returns the error code for the failed pipe\n                #  even if it isn't the last command in a series of pipes.\n#=============================================================================="
-  },
-  {
-    "objectID": "lectures/lecture_1.html#piping-and",
-    "href": "lectures/lecture_1.html#piping-and",
-    "title": "OSCER and BASH, BASH and OSCER",
-    "section": "Piping |, >, and >>",
-    "text": "Piping |, &gt;, and &gt;&gt;"
-  },
-  {
     "objectID": "lectures/lecture_1.html#standard-output",
     "href": "lectures/lecture_1.html#standard-output",
     "title": "OSCER and BASH, BASH and OSCER",
     "section": "Standard Output",
-    "text": "Standard Output\necho \"some string\"                # Print to screen\nCMD SOME_FILE.txt &gt; NEW_FILE.txt            # Overwrite file with output\nCMD SOME_FILE.txt &gt;&gt; ADD_TO_EXISTING.txt    # Take output and add output to existing content in file\nls exists 1&gt; stdout.txt           # Redirect the standard output to a file\nls noexist 2&gt; stderror.txt        # Redirect the standard error output to a file"
+    "text": "Standard Output\necho \"some string\"                # Print to screen\nCMD SOME_FILE.txt &gt; NEW_FILE.txt            # Overwrite file with output\nCMD SOME_FILE.txt &gt;&gt; ADD_TO_EXISTING.txt    # Take output and add output to existing content in file\nCMD SOME_FILE.txt 1&gt; stdout.txt           # Redirect the standard output to a file\nCMD SOME_FILE.txt 2&gt; stderror.txt        # Redirect the standard error output to a file"
   },
   {
     "objectID": "lectures/lecture_1.html#file-editing",
     "href": "lectures/lecture_1.html#file-editing",
     "title": "OSCER and BASH, BASH and OSCER",
     "section": "File Editing",
-    "text": "File Editing\nnano                    # Opens text editor to create new file\nnano foo.txt            # Opens file in text editor"
+    "text": "File Editing\nnano                    # Opens text editor to create new file\nnano file.txt            # Opens file in text editor"
   },
   {
     "objectID": "lectures/lecture_1.html#find-in-files",
@@ -152,5 +47,33 @@
     "title": "OSCER and BASH, BASH and OSCER",
     "section": "Find in Files",
     "text": "Find in Files\ngrep \"some-string\" SOME_FILE.txt    # Grabs lines in file that contain the string pattern"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#structure",
+    "href": "lectures/lecture_1.html#structure",
+    "title": "OSCER and BASH, BASH and OSCER",
+    "section": "Structure",
+    "text": "Structure\n#!/usr/bin/bash -l\n#SBATCH --partition=sooner_test\n#SBATCH --container=el9hw\n#SBATCH --nodes=1\n#SBATCH --ntasks=1\n#SBATCH --cpus-per-task=1\n#SBATCH --mem=30G\n#SBATCH --time=15:00:00\n#SBATCH --chdir=/scratch/jrada\n#SBATCH --output=gallus_%J_stdout.txt\n#SBATCH --error=gallus_%J_stderr.txt\n\n#==============================================================================\n# BASH Strict mode (i.e. \"fail fast\" to reduce hard-to-find bugs)\nset -e          # EXIT the script if any command returns non-zero exit status.\nset -E          # Make ERR trapping work inside functions too.\nset -u          # Variables must be pre-defined before using them.\nset -o pipefail # If a pipe fails, returns the error code for the failed pipe\n                #  even if it isn't the last command in a series of pipes.\n#=============================================================================="
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Bioinformatics Course",
+    "section": "",
+    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\n3\nWorking in OSCER and BASH\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n10\n16S rRNA Microbiome Analysis\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\n17\nIntroduction to Data Science\n18\n19\nCourse Project Help Session\n20\n\n\n23\n24\nIn-class Presentations\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nTue and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
+  },
+  {
+    "objectID": "resources/resource_1_oscer.html",
+    "href": "resources/resource_1_oscer.html",
+    "title": "What is OSCER?",
+    "section": "",
+    "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Course content for each lecture is below:\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
   }
 ]
