@@ -235,7 +235,7 @@ Author
 <span class="listing-author">Eleana Cabello</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1749099600000" data-listing-file-modified-sort="1745004508634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="16S rRNA Microbiome Analysis - Part 1" data-listing-filename-sort="lecture_2.qmd">
+<tr data-index="1" data-listing-date-sort="1749099600000" data-listing-file-modified-sort="1745269094279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="16S rRNA Microbiome Analysis - Part 1" data-listing-filename-sort="lecture_2.qmd">
 <td>
 <span class="listing-date">2025-06-05</span>
 </td>
@@ -285,17 +285,6 @@ Author
 </td>
 <td>
 <a href="./lectures/lecture_6.html" class="title listing-title">End of Course :(</a>
-</td>
-<td>
-<span class="listing-author">Eleana Cabello</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1751259600000" data-listing-file-modified-sort="1745005109631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="- Lesson" data-listing-filename-sort="lecture_template.qmd">
-<td>
-<span class="listing-date">2025-06-30</span>
-</td>
-<td>
-<a href="./lectures/lecture_template.html" class="title listing-title">- Lesson</a>
 </td>
 <td>
 <span class="listing-author">Eleana Cabello</span>
@@ -402,7 +391,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/EleanaCab\.github\.io\/ITB_2025\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
