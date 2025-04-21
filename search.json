@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Title\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "lectures/lecture_1.html",
     "href": "lectures/lecture_1.html",
     "title": "OSCER and BASH, BASH and OSCER",
@@ -42,11 +49,11 @@
     "text": "Pattern Searching\ngrep \"some-string\" SOME_FILE.txt    # Grabs lines in file that contain the string pattern"
   },
   {
-    "objectID": "resources/resource_1_oscer.html",
-    "href": "resources/resource_1_oscer.html",
-    "title": "What is OSCER?",
+    "objectID": "lectures/lecture_6.html",
+    "href": "lectures/lecture_6.html",
+    "title": "End of Course :(",
     "section": "",
-    "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
+    "text": "How to use OSCER now\n\n\nCourse Form"
   },
   {
     "objectID": "index.html",
@@ -56,20 +63,6 @@
     "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\nWorking in OSCER and BASH\n3\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n16S rRNA Microbiome Analysis\n10\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\nIntroduction to Data Science\n17\n18\n19\nCourse Project Help Session\n20\n\n\n23\nIn-class Presentations\n24\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nMon and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Title\n\n\nAuthor\n\n\n\n\n\n\nWhat is OSCER?\n\n\n \n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n2025-06-05\n\n\n16S rRNA Microbiome Analysis - Part 1\n\n\nEleana Cabello\n\n\n\n\n2025-06-09\n\n\n16S rRNA Microbiome Analysis - Part 2\n\n\nEleana Cabello\n\n\n\n\n2025-06-12\n\n\nBulk RNA-seq and Pathway Analysis\n\n\nEleana Cabello\n\n\n\n\n2025-06-16\n\n\nIntro to Data Science\n\n\nEleana Cabello\n\n\n\n\n2025-06-26\n\n\nEnd of Course :(\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "Assignments",
@@ -77,10 +70,17 @@
     "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nAssignment 1\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "lectures/lecture_6.html",
-    "href": "lectures/lecture_6.html",
-    "title": "End of Course :(",
+    "objectID": "resources/resource_1_oscer.html",
+    "href": "resources/resource_1_oscer.html",
+    "title": "What is OSCER?",
     "section": "",
-    "text": "How to use OSCER now\n\n\nCourse Form"
+    "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n2025-06-05\n\n\n16S rRNA Microbiome Analysis - Part 1\n\n\nEleana Cabello\n\n\n\n\n2025-06-09\n\n\n16S rRNA Microbiome Analysis - Part 2\n\n\nEleana Cabello\n\n\n\n\n2025-06-12\n\n\nBulk RNA-seq and Pathway Analysis\n\n\nEleana Cabello\n\n\n\n\n2025-06-16\n\n\nIntro to Data Science\n\n\nEleana Cabello\n\n\n\n\n2025-06-26\n\n\nEnd of Course :(\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
   }
 ]
