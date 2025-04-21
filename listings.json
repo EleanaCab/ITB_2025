@@ -6,12 +6,6 @@
     ]
   },
   {
-    "listing": "/assignments.html",
-    "items": [
-      "/assignments/assignment_1.html"
-    ]
-  },
-  {
     "listing": "/lectures.html",
     "items": [
       "/lectures/lecture_1.html",
@@ -20,6 +14,12 @@
       "/lectures/lecture_4.html",
       "/lectures/lecture_5.html",
       "/lectures/lecture_6.html"
+    ]
+  },
+  {
+    "listing": "/assignments.html",
+    "items": [
+      "/assignments/assignment_1.html"
     ]
   }
 ]
