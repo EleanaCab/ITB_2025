@@ -1,0 +1,10 @@
+---
+title: "Bulk RNA-seq and Pathway Analysis"
+author: 
+  - name: Eleana Cabello
+date: 06/12/2025
+---
+
+
+
+

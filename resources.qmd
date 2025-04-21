@@ -13,7 +13,5 @@ title-block-banner: false
 date-format: iso
 ---
 
-Resources below:
-
 ::: {#resources-listings}
 :::

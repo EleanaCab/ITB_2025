@@ -11,9 +11,10 @@ $orange: #ad7237;
 $black: #151617;
 $mod-blue: #2972b6;
 $terra: #f0b982;
+$ou-red: #751717;
 
 // Base document colors
-$navbar-bg: $mod-blue; // navbar
+$navbar-bg: $ou-red; // navbar
 $navbar-fg: $cream; // navbar foreground elements
 $navbar-hl: $terra; // highlight color when hovering over navbar links
 $body-bg: $cream; // page background 
@@ -33,6 +34,10 @@ h1, h2, h3{
 
 .title {
   color: $black;
+}
+
+.p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .center-text {

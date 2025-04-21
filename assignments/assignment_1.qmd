@@ -1,0 +1,8 @@
+---
+title: "Assignment 1"
+author: 
+  - name: Eleana Cabello
+date: 06/02/2025
+---
+
+# FastQC and MultiQC

@@ -1,8 +1,8 @@
 ---
-title: "Lectures"
+title: "Assignments"
 listing:
-  id: lecture-listings
-  contents: lectures
+  id: assignments-listings
+  contents: assignments
   sort: "date asc"
   type: table
   categories: false
@@ -13,5 +13,5 @@ title-block-banner: false
 date-format: iso
 ---
 
-::: {#lecture-listings}
+::: {#Assignments-listings}
 :::

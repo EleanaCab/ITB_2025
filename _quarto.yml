@@ -13,6 +13,9 @@ website:
       - icon: book
         text: "Lectures"
         href: lectures.qmd
+      - icon: pencil
+        text: "Assignments"
+        href: assignments.qmd
       - icon: clipboard2
         text: "Project"
         href: project.qmd

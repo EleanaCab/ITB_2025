@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9da538f865798a558ce43b89a40e8065.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7ae51ccd6d675c11e877ca0dc1bb73e1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,6 +98,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./assignments.html"> <i class="bi bi-pencil" role="img">
+</i> 
+<span class="menu-text">Assignments</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./project.html"> <i class="bi bi-clipboard2" role="img">
 </i> 
 <span class="menu-text">Project</span></a>
@@ -151,6 +156,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 83.3%;justify-content: center;">
+<p><img src="images/okinbre_logo.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: center;">
+<p><img src="images/seeder_logo.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
 <section id="course-calendar" class="level1">
 <h1>Course Calendar</h1>
 <table class="caption-top table" data-quarto-postprocess="true">
@@ -175,36 +193,36 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>2</td>
-<td>3<br>
+<td>2<br>
 Working in OSCER and BASH</td>
+<td>3</td>
 <td>4</td>
 <td>5<br>
 16S rRNA Microbiome Analysis</td>
 <td>6</td>
 </tr>
 <tr class="even">
-<td>9</td>
-<td>10<br>
+<td>9<br>
 16S rRNA Microbiome Analysis</td>
+<td>10</td>
 <td>11</td>
 <td>12<br>
 Bulk RNA-seq and Consensus Pathway Analysis</td>
 <td>13</td>
 </tr>
 <tr class="odd">
-<td>16</td>
-<td>17<br>
+<td>16<br>
 Introduction to Data Science</td>
+<td>17</td>
 <td>18</td>
 <td>19<br>
 Course Project Help Session</td>
 <td>20</td>
 </tr>
 <tr class="even">
-<td>23</td>
-<td>24<br>
+<td>23<br>
 In-class Presentations</td>
+<td>24</td>
 <td>25</td>
 <td>26<br>
 In-class Presentations</td>
@@ -236,7 +254,7 @@ Sr Bioinformatics Analyst for IRCF</td>
 </tr>
 <tr class="even">
 <td><strong>Lecture Times</strong></td>
-<td>Tue and Thu<br>
+<td>Mon and Thu<br>
 10:00 - 11:30am</td>
 <td></td>
 <td></td>
@@ -350,7 +368,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/EleanaCab\.github\.io\/ITB_2025\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

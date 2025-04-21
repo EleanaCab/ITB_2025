@@ -4,6 +4,13 @@ title: "Introduction to Bioinformatics Course"
 
 Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.
 
+
+::: {layout-ncol=2}
+![](images/okinbre_logo.png){width=65%}
+
+![](images/seeder_logo.png){width=13%}
+:::
+
 # Course Calendar
 ```{=html}
 <table>
@@ -21,29 +28,29 @@ Welcome! This will be the place to refer to for this class. All lectures, assign
   </thead>
   <tbody>
     <tr>
-    <td>2</td>
-    <td>3<br>Working in OSCER and BASH</td>
+    <td>2<br>Working in OSCER and BASH</td>
+    <td>3</td>
     <td>4</td>
     <td>5<br>16S rRNA Microbiome Analysis</td>
     <td>6</td>
     </tr>
     <tr>
-    <td>9</td>
-    <td>10<br>16S rRNA Microbiome Analysis</td>
+    <td>9<br>16S rRNA Microbiome Analysis</td>
+    <td>10</td>
     <td>11</td>
     <td>12<br>Bulk RNA-seq and Consensus Pathway Analysis</td>
     <td>13</td>
     </tr>
     <tr>
-    <td>16</td>
-    <td>17<br>Introduction to Data Science</td>
+    <td>16<br>Introduction to Data Science</td>
+    <td>17</td>
     <td>18</td>
     <td>19<br>Course Project Help Session</td>
     <td>20</td>
     </tr>
     <tr>
-    <td>23</td>
-    <td>24<br>In-class Presentations</td>
+    <td>23<br>In-class Presentations</td>
+    <td>24</td>
     <td>25</td>
     <td>26<br>In-class Presentations</td>
     <td>27</td>
@@ -66,7 +73,7 @@ Welcome! This will be the place to refer to for this class. All lectures, assign
     </tr>
     <tr>
     <td><b>Lecture Times</b></td>
-    <td>Tue and Thu<br>10:00 - 11:30am</td>
+    <td>Mon and Thu<br>10:00 - 11:30am</td>
     </tr>
     <tr>
     <td><b>Location</b></td>
