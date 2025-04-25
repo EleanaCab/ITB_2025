@@ -6,6 +6,12 @@
     ]
   },
   {
+    "listing": "/lecture_slides.html",
+    "items": [
+      "/lecture_slides/lecture_1_slides.html"
+    ]
+  },
+  {
     "listing": "/assignments.html",
     "items": [
       "/assignments/assignment_1.html"

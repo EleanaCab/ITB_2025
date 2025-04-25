@@ -134,6 +134,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../lecture_slides.html"> <i class="bi bi-display" role="img">
+</i> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../assignments.html"> <i class="bi bi-pencil" role="img">
 </i> 
 <span class="menu-text">Assignments</span></a>
@@ -169,12 +174,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#working-on-oscers-hpc-system" id="toc-working-on-oscers-hpc-system" class="nav-link" data-scroll-target="#working-on-oscers-hpc-system">Working on OSCER’s HPC System</a></li>
   <li><a href="#bash-programming" id="toc-bash-programming" class="nav-link" data-scroll-target="#bash-programming">BASH Programming</a>
   <ul class="collapse">
-  <li><a href="#common-commands" id="toc-common-commands" class="nav-link" data-scroll-target="#common-commands">Common Commands</a>
-  <ul class="collapse">
   <li><a href="#navigating-directories" id="toc-navigating-directories" class="nav-link" data-scroll-target="#navigating-directories">Navigating Directories</a></li>
   <li><a href="#creating-moving-and-deleting-directories" id="toc-creating-moving-and-deleting-directories" class="nav-link" data-scroll-target="#creating-moving-and-deleting-directories">Creating, Moving, and Deleting Directories</a></li>
   <li><a href="#creating-deleting-copying-and-moving-files" id="toc-creating-deleting-copying-and-moving-files" class="nav-link" data-scroll-target="#creating-deleting-copying-and-moving-files">Creating, Deleting, Copying, and Moving Files</a></li>
-  </ul></li>
   <li><a href="#piping" id="toc-piping" class="nav-link" data-scroll-target="#piping">Piping</a></li>
   <li><a href="#standard-output" id="toc-standard-output" class="nav-link" data-scroll-target="#standard-output">Standard Output</a></li>
   <li><a href="#file-editing" id="toc-file-editing" class="nav-link" data-scroll-target="#file-editing">File Editing</a></li>
@@ -221,7 +223,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="setting-the-stage" class="level1">
 <h1>Setting the Stage</h1>
-<p><img src="../images/local_terminal.png" class="img-fluid" width="700"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/lecture_1/local_terminal.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="700"></p>
+</figure>
+</div>
 <ul>
 <li><strong>Terminal</strong> - A text-based user interface that allows users to interact with a computer by typing commands</li>
 <li><strong>Directory</strong> - A folder location in your computer</li>
@@ -247,13 +253,13 @@ Steps to Log In
 <ol type="1">
 <li><p>Gather you log in information, username and password.</p></li>
 <li><p>Find the terminal on your computer.</p>
-<p><img src="../images/local_terminal.png" class="img-fluid" width="700"></p></li>
+<p><img src="../images/lecture_1/local_terminal.png" class="img-fluid" width="700"></p></li>
 <li><p>Type the following command to access you OSCER account</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> USERNAME@sooner.oscer.ou.edu <span class="co">#Replace USERNAME with your guest username</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>It will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.</p>
-<p><img src="../images/oscer_login_success.png" class="img-fluid" width="600"></p></li>
+<p><img src="../images/lecture_1/oscer_login_success.png" class="img-fluid" width="600"></p></li>
 <li><p>You’ve logged into your account!</p>
-<p><img src="../images/oscer_terminal.png" class="img-fluid" width="600"></p></li>
+<p><img src="../images/lecture_1/oscer_terminal.png" class="img-fluid" width="600"></p></li>
 </ol>
 </div>
 </div>
@@ -264,8 +270,10 @@ Steps to Log In
 <p>The OU Supercomputing Center for Education and Research (OSCER) provides the OU, OUHS, and other Oklahoma institutions with High Performance Computing (HPC) infrastructure.</p>
 <p>HPC system allow for multiple jobs to be run on several processors in a multi-processor enviroment. This is also known as parallel processing. A simple way to put it, it allows for multiple people to submit jobs/processes at the same time. It also means you can submit several jobs at a time and not have to wait for the “computer” to free up after each task.</p>
 <p>Why do we need parallel processing? Think about it as a queue you are in, waiting to submit your job to do on a computer. Your job takes about 5 hours to complete. The person infront of you takes about equal or more and so does the next person infront of them. Whether you are using a computationally heavy program or just have hundreds of samples to process Without parellel processing you will have to wait there for days as one by one gets done in front of you. HPC parallel processing allows for multiple queues for computationally heavy jobs to get done in a faster amount of time.</p>
-<div style="text-align:center;">
-<p><img src="../images/oscer_hpc_overview.png" class="img-fluid" width="500"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/lecture_1/oscer_hpc_overview.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="border: 2px solid black; border-radius: 5px; padding: 50px;" width="500"></p>
+</figure>
 </div>
 <p>The figure above shows the overview of OSCER’s HPC structure. In a traditional computer you files system is very much merged with your processing system. Since an HPC system has hundreds even thousands of users, this is not possible to do with an HPC and would likely defeat its purpose. Instead you file system “Home” is seperate from your processing system “Compute Nodes” in this structure. Programs are also seperated from your “Home”.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="OSCER and HPC Resources">
@@ -289,8 +297,6 @@ OSCER and HPC Resources
 <section id="bash-programming" class="level1">
 <h1>BASH Programming</h1>
 <p>The following commands will help you navigate through your OSCER account and submit jobs.</p>
-<section id="common-commands" class="level2">
-<h2 class="anchored" data-anchor-id="common-commands">Common Commands</h2>
 <section id="navigating-directories" class="level3">
 <h3 class="anchored" data-anchor-id="navigating-directories">Navigating Directories</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">pwd</span>       <span class="co"># Print wokring directory</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -315,7 +321,6 @@ OSCER and HPC Resources
 <div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> foo.txt                        <span class="co"># Remove file</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> SOME_FILE.txt SOME_FILE.txt    <span class="co"># Copy file to new directory</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mv</span> SOME_FILE.txt SOME_FILE.txt    <span class="co"># Move file to new directory</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
 </section>
 <section id="piping" class="level2">
 <h2 class="anchored" data-anchor-id="piping">Piping</h2>

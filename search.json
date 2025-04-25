@@ -14,13 +14,6 @@
     "text": "Terminal - A text-based user interface that allows users to interact with a computer by typing commands\nDirectory - A folder location in your computer\nWorking Directory - The current directory a user is in\nPath - Directions to a folder or file\nCommand - BASH command to accomplish a task i.e. creating file, removing file, etc.\nCommand Flag - Modifications to a command to consider"
   },
   {
-    "objectID": "lectures/lecture_1.html#common-commands",
-    "href": "lectures/lecture_1.html#common-commands",
-    "title": "OSCER and BASH, BASH and OSCER",
-    "section": "Common Commands",
-    "text": "Common Commands\n\nNavigating Directories\npwd       # Print wokring directory\nls        # List contents in a directory\nls -lh    # List contents in a directory in a list format and human read able sizes\ntree      # List directory and file tree\ncd SOME_DIR     # Change working directory to the entered directory \ncd ..           # Change working directory to parent directory of current directory\ncd ~            # Change working directory to home\n\n\nCreating, Moving, and Deleting Directories\nmkdir SOME_DIR    # Create directory\nrmdir SOME_DIR    # Remove Directory\nrm -r SOME_DIR    # Remove Directory\nmv ONE_DIR TWO_DIR # Move directory to new directory \n\n\nCreating, Deleting, Copying, and Moving Files\ntouch SOME_FILE.txt                   # Create new file\ntouch SOME_FILE.txt SOME_FILE.txt     # Create several new files\nrm foo.txt                        # Remove file\ncp SOME_FILE.txt SOME_FILE.txt    # Copy file to new directory\nmv SOME_FILE.txt SOME_FILE.txt    # Move file to new directory"
-  },
-  {
     "objectID": "lectures/lecture_1.html#piping",
     "href": "lectures/lecture_1.html#piping",
     "title": "OSCER and BASH, BASH and OSCER",
@@ -51,23 +44,58 @@
   {
     "objectID": "lectures/lecture_6.html",
     "href": "lectures/lecture_6.html",
-    "title": "End of Course :(",
+    "title": "End of Course",
     "section": "",
     "text": "How to use OSCER now\n\n\nCourse Form"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction to Bioinformatics Course",
+    "objectID": "lecture_slides.html",
+    "href": "lecture_slides.html",
+    "title": "Lecture Slides",
     "section": "",
-    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\nWorking in OSCER and BASH\n3\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n16S rRNA Microbiome Analysis\n10\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\nIntroduction to Data Science\n17\n18\n19\nCourse Project Help Session\n20\n\n\n23\nIn-class Presentations\n24\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nMon and Thu\n10:00 - 11:30am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n06-30-2025\n\n\nLecture 1\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lecture_slides/lecture_1_slides.html#getting-up",
+    "href": "lecture_slides/lecture_1_slides.html#getting-up",
+    "title": "Lecture 1",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "lecture_slides/lecture_1_slides.html#going-to-sleep",
+    "href": "lecture_slides/lecture_1_slides.html#going-to-sleep",
+    "title": "Lecture 1",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "assignments/assignment_1.html",
+    "href": "assignments/assignment_1.html",
+    "title": "Quality Check of FASTQ Files on OSCER",
+    "section": "",
+    "text": "The FASTQ file format is the defacto format for unmapped sequence reads generated from next-generation sequencing technologies.\nThe image belows shows the structure for one read entry in a FASTQ file, its important to note these files will have a million reads meaning millions of entries repeating this same structure:\n\n\n\n\n\nEach entry can be broken down to four lines. Line 1 will always start with the @ symbol followed by sequence identifiers like instrument ID, run number, flow cell ID, etc. Line 2 will be the sequence itself. Line 3 will always start with the + symbol and on occasion be followed by the same information on line 1. It acts as a seperator between lines 2 and 4. Line 4 will contain the quality score for each nucleotide in the sequnce of Line 2, encoded in ASCII characters.\n\n\n\n\n\nWhile reads are getting sequenced in a sequencer, quality predictor values are being created for each base call determined by the light signal emitted of each base, sign-to-noise ratio, and other factors determined by the machine. These Values are then used to calculate a Phred (Q) Score that takes into account the probability of a base call being incorrect and gives a prediction on probability of an error occuring in the base calling by the machine. The higher the Q-Score the less likely a base call is incorrect. To simplify this information to add to FASTQ files, an ASCII character is used and found by adding 33 to the Q-Score. The summed number and the ASCII chart is then used to find a character to allocate to the quality of each base.\n\n\n\n\n\n\n\n\n\n\n\nSequencing Accuracy Resources\n\n\n\n\n\n\nIlluminia Measuring Sequencing Accuracy\nIlluminia Understanding Illumina Quality Scores"
+  },
+  {
+    "objectID": "assignments/assignment_1.html#fastqc",
+    "href": "assignments/assignment_1.html#fastqc",
+    "title": "Quality Check of FASTQ Files on OSCER",
+    "section": "FastQC",
+    "text": "FastQC\nFastQC is a program that allows you to run a quick quality check on a fastq file (.fastq or .fastq.gz). To run this program store all fastq files in one directory. Then pass that directory to the FastQC command when running it through the terminal.\nLet’s say you stored all your files in a directory called raw_data and you want to store results in a new directory called fastqc_results, you’re command would look like:\nfastqc -o fastqc_results raw_data/*.fastq.gz\nEach fastq file processed will have a resulting _fastqc.html and _fastqc.zip. Below are examples of the results stored in a _fastqc.html file."
+  },
+  {
+    "objectID": "assignments/assignment_1.html#multiqc",
+    "href": "assignments/assignment_1.html#multiqc",
+    "title": "Quality Check of FASTQ Files on OSCER",
+    "section": "MultiQC",
+    "text": "MultiQC\nMultiQC compiles FastQC results together into one HTML file for easier comparison of samples.\nTo use MultiQC, the command needs a directory to output the results and the directory to search for the FastQC results to compile together:\nmultiqc -o multiqc_results raw_data/*fastqc.zip"
   },
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nAssignment 1\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\nDue\n\n\n\n\n\n\n06-02-2025\n\n\nQuality Check of FASTQ Files on OSCER\n\n\nEleana Cabello\n\n\n06-04-2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/resource_1_oscer.html",
@@ -77,10 +105,17 @@
     "text": "The computational resource we will be using for this course will be the OU Supercomputing Center for Education and Research (OSCER)."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Bioinformatics Course",
+    "section": "",
+    "text": "Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.\n\nCourse Calendar\n\n\n\n\n\n\n\n\n\n\nJune\n\n\nMon\nTue\nWed\nThu\nFri\n\n\n\n\n2\nWorking in OSCER and BASH\n3\n4\n5\n16S rRNA Microbiome Analysis\n6\n\n\n9\n16S rRNA Microbiome Analysis\n10\n11\n12\nBulk RNA-seq and Consensus Pathway Analysis\n13\n\n\n16\nIntroduction to Data Science\n17\n18\n19\nCourse Project Help Session\n20\n\n\n23\nIn-class Presentations\n24\n25\n26\nIn-class Presentations\n27\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n\n\n\nCourse Staff\nDave Dyer\nProfessor Emeritus,\nDepartment of Microbiology and Immunology\nEleana Cabello\nBioinformatics Analyst for OK-INBRE,\nDepartment of Microbiology and Immunology\nHande Acar\nSr Bioinformatics Analyst for IRCF\n\n\nLecture Times\nMon and Thu\n10:00 - 11:20am\n\n\n\n\nLocation\nTBD\n\n\n\n\nOffice Hours\nTBD"
+  },
+  {
     "objectID": "lectures.html",
     "href": "lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2025-06-02\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n2025-06-05\n\n\n16S rRNA Microbiome Analysis - Part 1\n\n\nEleana Cabello\n\n\n\n\n2025-06-09\n\n\n16S rRNA Microbiome Analysis - Part 2\n\n\nEleana Cabello\n\n\n\n\n2025-06-12\n\n\nBulk RNA-seq and Pathway Analysis\n\n\nEleana Cabello\n\n\n\n\n2025-06-16\n\n\nIntro to Data Science\n\n\nEleana Cabello\n\n\n\n\n2025-06-26\n\n\nEnd of Course :(\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n06-02-2025\n\n\nOSCER and BASH, BASH and OSCER\n\n\nEleana Cabello\n\n\n\n\n06-05-2025\n\n\n16S rRNA Microbiome Analysis - Part 1\n\n\nEleana Cabello\n\n\n\n\n06-09-2025\n\n\n16S rRNA Microbiome Analysis - Part 2\n\n\nEleana Cabello\n\n\n\n\n06-12-2025\n\n\nBulk RNA-seq and Pathway Analysis\n\n\nEleana Cabello\n\n\n\n\n06-16-2025\n\n\nIntro to Data Science\n\n\nEleana Cabello\n\n\n\n\n06-26-2025\n\n\nEnd of Course\n\n\nEleana Cabello\n\n\n\n\n\nNo matching items"
   }
 ]
