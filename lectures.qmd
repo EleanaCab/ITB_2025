@@ -3,16 +3,16 @@ title: "Lectures"
 listing:
   id: lecture-listings
   contents: lectures
+  exclude:
+    title: "Template"
   sort: "date asc"
   type: table
   categories: false
   sort-ui: false
   filter-ui: false
-  exclude:
-    title: "Template"
 page-layout: full
 title-block-banner: false
-date-format: iso
+date-format: "MM-DD-YYYY"
 ---
 
 ::: {#lecture-listings}

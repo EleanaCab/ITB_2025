@@ -100,6 +100,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../lecture_slides.html"> <i class="bi bi-display" role="img">
+</i> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../assignments.html"> <i class="bi bi-pencil" role="img">
 </i> 
 <span class="menu-text">Assignments</span></a>
@@ -125,8 +130,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quality-check" id="toc-quality-check" class="nav-link active" data-scroll-target="#quality-check">Quality Check</a></li>
+  <li><a href="#mapping-to-reference-genome" id="toc-mapping-to-reference-genome" class="nav-link" data-scroll-target="#mapping-to-reference-genome">Mapping to Reference Genome</a>
+  <ul class="collapse">
+  <li><a href="#different-types-of-mappers" id="toc-different-types-of-mappers" class="nav-link" data-scroll-target="#different-types-of-mappers">Different Types of Mappers</a></li>
+  <li><a href="#building-reference-indices" id="toc-building-reference-indices" class="nav-link" data-scroll-target="#building-reference-indices">Building Reference Indices</a></li>
+  <li><a href="#mapping" id="toc-mapping" class="nav-link" data-scroll-target="#mapping">Mapping</a></li>
+  </ul></li>
+  <li><a href="#creating-count-matrix" id="toc-creating-count-matrix" class="nav-link" data-scroll-target="#creating-count-matrix">Creating Count Matrix</a></li>
+  <li><a href="#deseq2-anaylsis-of-differentially-expressed-genes" id="toc-deseq2-anaylsis-of-differentially-expressed-genes" class="nav-link" data-scroll-target="#deseq2-anaylsis-of-differentially-expressed-genes">DESeq2 Anaylsis of Differentially Expressed Genes</a></li>
+  <li><a href="#plotting" id="toc-plotting" class="nav-link" data-scroll-target="#plotting">Plotting</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -162,8 +182,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="quality-check" class="level1">
+<h1>Quality Check</h1>
+</section>
+<section id="mapping-to-reference-genome" class="level1">
+<h1>Mapping to Reference Genome</h1>
+<section id="different-types-of-mappers" class="level2">
+<h2 class="anchored" data-anchor-id="different-types-of-mappers">Different Types of Mappers</h2>
+</section>
+<section id="building-reference-indices" class="level2">
+<h2 class="anchored" data-anchor-id="building-reference-indices">Building Reference Indices</h2>
+</section>
+<section id="mapping" class="level2">
+<h2 class="anchored" data-anchor-id="mapping">Mapping</h2>
+</section>
+</section>
+<section id="creating-count-matrix" class="level1">
+<h1>Creating Count Matrix</h1>
+</section>
+<section id="deseq2-anaylsis-of-differentially-expressed-genes" class="level1">
+<h1>DESeq2 Anaylsis of Differentially Expressed Genes</h1>
+</section>
+<section id="plotting" class="level1">
+<h1>Plotting</h1>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -256,7 +300,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/EleanaCab\.github\.io\/ITB_2025\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

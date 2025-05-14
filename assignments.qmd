@@ -8,9 +8,10 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
+  fields: [date, title, author, Due]
 page-layout: full
 title-block-banner: false
-date-format: iso
+date-format: "MM-DD-YYYY"
 ---
 
 ::: {#Assignments-listings}

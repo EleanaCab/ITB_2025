@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-Due',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -158,6 +158,11 @@ window.Quarto = {
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./lecture_slides.html"> <i class="bi bi-display" role="img">
+</i> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./assignments.html" aria-current="page"> <i class="bi bi-pencil" role="img">
 </i> 
 <span class="menu-text">Assignments</span></a>
@@ -228,18 +233,24 @@ Title
 <th>
 Author
 </th>
+<th>
+Due
+</th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1748840400000" data-listing-file-modified-sort="1745269168215" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8" data-listing-title-sort="Assignment 1" data-listing-filename-sort="assignment_1.qmd">
+<tr data-index="0" data-listing-date-sort="1748840400000" data-listing-file-modified-sort="1747172845287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="715" data-listing-title-sort="Quality Check of FASTQ Files on OSCER" data-listing-filename-sort="assignment_1.qmd">
 <td>
-<span class="listing-date">2025-06-02</span>
+<span class="listing-date">06-02-2025</span>
 </td>
 <td>
-<a href="./assignments/assignment_1.html" class="title listing-title">Assignment 1</a>
+<a href="./assignments/assignment_1.html" class="title listing-title">Quality Check of FASTQ Files on OSCER</a>
 </td>
 <td>
 <span class="listing-author">Eleana Cabello</span>
+</td>
+<td>
+<span class="listing-Due">06-04-2025</span>
 </td>
 </tr>
 </tbody>
@@ -338,7 +349,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/EleanaCab\.github\.io\/ITB_2025\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

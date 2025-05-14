@@ -13,6 +13,9 @@ website:
       - icon: book
         text: "Lectures"
         href: lectures.qmd
+      - icon: display
+        text: "Slides"
+        href: lecture_slides.qmd
       - icon: pencil
         text: "Assignments"
         href: assignments.qmd

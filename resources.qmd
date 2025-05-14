@@ -10,7 +10,7 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: false
-date-format: iso
+date-format: "MM-DD-YYYY"
 ---
 
 ::: {#resources-listings}

@@ -6,7 +6,7 @@ date: 06/02/2025
 ---
 # Setting the Stage
 
-![](../images/local_terminal.png){width=700}
+![](../images/lecture_1/local_terminal.png){width=700 fig-align=center}
 
 - **Terminal** - A text-based user interface that allows users to interact with a computer by typing commands
 - **Directory** - A folder location in your computer
@@ -23,7 +23,7 @@ Good news! There is nothing you need to do to setup an account. A guest account 
 1. Gather you log in information, username and password. 
 2. Find the terminal on your computer.
 
-    ![](../images/local_terminal.png){width=700}
+    ![](../images/lecture_1/local_terminal.png){width=700}
     
 3. Type the following command to access you OSCER account
 
@@ -33,11 +33,11 @@ Good news! There is nothing you need to do to setup an account. A guest account 
     
 4. It will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.
     
-    ![](../images/oscer_login_success.png){width=600}
+    ![](../images/lecture_1/oscer_login_success.png){width=600}
     
 5. You've logged into your account!
 
-    ![](../images/oscer_terminal.png){width=600}
+    ![](../images/lecture_1/oscer_terminal.png){width=600}
 :::
 
 # Working on OSCER's HPC System
@@ -50,9 +50,7 @@ HPC system allow for multiple jobs to be run on several processors in a multi-pr
 
 Why do we need parallel processing? Think about it as a queue you are in, waiting to submit your job to do on a computer. Your job takes about 5 hours to complete. The person infront of you takes about equal or more and so does the next person infront of them. Whether you are using a computationally heavy program or just have hundreds of samples to process Without parellel processing you will have to wait there for days as one by one gets done in front of you. HPC parallel processing allows for multiple queues for computationally heavy jobs to get done in a faster amount of time.
 
-::: {style="text-align:center;"}
-![](../images/oscer_hpc_overview.png){width=500}
-:::
+![](../images/lecture_1/oscer_hpc_overview.png){width=500 style="border: 2px solid black; border-radius: 5px; padding: 50px;" fig-align=center}
 
 The figure above shows the overview of OSCER's HPC structure. In a traditional computer you files system is very much merged with your processing system. Since an HPC system has hundreds even thousands of users, this is not possible to do with an HPC and would likely defeat its purpose. Instead you file system "Home" is seperate from your processing system "Compute Nodes" in this structure. Programs are also seperated from your "Home".
 
@@ -65,8 +63,6 @@ The figure above shows the overview of OSCER's HPC structure. In a traditional c
 # BASH Programming
 
 The following commands will help you navigate through your OSCER account and submit jobs. 
-
-## Common Commands
 
 ### Navigating Directories
 

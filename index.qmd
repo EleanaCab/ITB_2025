@@ -1,15 +1,9 @@
 ---
 title: "Introduction to Bioinformatics Course"
+title-block-banner: true
 ---
 
 Welcome! This will be the place to refer to for this class. All lectures, assignments, and projects will be placed here. Grades and adminstrative stuff will be taken care of in Canvas, if you are enrolled in the course. Below is calendar overview of what we will cover in this course and what anticipated lectures we will be going through.
-
-
-::: {layout-ncol=2}
-![](images/okinbre_logo.png){width=65%}
-
-![](images/seeder_logo.png){width=13%}
-:::
 
 # Course Calendar
 ```{=html}
@@ -73,7 +67,7 @@ Welcome! This will be the place to refer to for this class. All lectures, assign
     </tr>
     <tr>
     <td><b>Lecture Times</b></td>
-    <td>Mon and Thu<br>10:00 - 11:30am</td>
+    <td>Mon and Thu<br>10:00 - 11:20am</td>
     </tr>
     <tr>
     <td><b>Location</b></td>
