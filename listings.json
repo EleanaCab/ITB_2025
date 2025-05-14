@@ -1,8 +1,13 @@
 [
   {
-    "listing": "/resources.html",
+    "listing": "/lectures.html",
     "items": [
-      "/resources/resource_1_oscer.html"
+      "/lectures/lecture_1.html",
+      "/lectures/lecture_2.html",
+      "/lectures/lecture_3.html",
+      "/lectures/lecture_4.html",
+      "/lectures/lecture_5.html",
+      "/lectures/lecture_6.html"
     ]
   },
   {
@@ -18,14 +23,9 @@
     ]
   },
   {
-    "listing": "/lectures.html",
+    "listing": "/resources.html",
     "items": [
-      "/lectures/lecture_1.html",
-      "/lectures/lecture_2.html",
-      "/lectures/lecture_3.html",
-      "/lectures/lecture_4.html",
-      "/lectures/lecture_5.html",
-      "/lectures/lecture_6.html"
+      "/resources/resource_1_oscer.html"
     ]
   }
 ]
