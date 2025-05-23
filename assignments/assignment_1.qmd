@@ -42,6 +42,7 @@ fastqc -o fastqc_results raw_data/*.fastq.gz
 Each fastq file processed will have a resulting _fastqc.html and _fastqc.zip. Below are examples of the results stored in a _fastqc.html file:
 
 ![](../images/assignment_1/fastqc_01.png){width=700 style="border: 2px solid black; border-radius: 5px;" fig-align=center}
+
 The basic statistics section provides a quick description of the file including name, total number of sequences, total bases, range of sequence lengths, and GC percentage. 
 
 ![](../images/assignment_1/fastqc_02.png){width=700 style="border: 2px solid black; border-radius: 5px;" fig-align=center}
@@ -76,18 +77,33 @@ multiqc -o multiqc_results raw_data/*fastqc.zip
 
 # Homework Walkthrough
 
+1. Log into your OSCER account 
+
+2. DIRECTIONS ON GETTING DATA
+
+3. Next type the following command
+
 ```{.bash}
-#!/usr/bin/bash -l
-#SBATCH --partition=sooner_test
+nano qc_script.sh
+```
+
+4. Copy and paste the script below into your nano screen:
+
+```{.bash}
+#!/bin/bash
+#SBATCH --partition=ircfhp
+#SBATCH --nodelist=c923
 #SBATCH --container=el9hw
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=10
 #SBATCH --mem=30G
-#SBATCH --time=15:00:00
-#SBATCH --chdir=/scratch/jrada
-#SBATCH --output=cabello_%J_stdout.txt
-#SBATCH --error=cabello_%J_stderr.txt
+#SBATCH --chdir=/home
+#SBATCH --output=qc_%A_%a_stdout.txt
+#SBATCH --error=qc_%A_%a_stderr.txt
+#SBATCH --mail-user=USERo@ouhsc.edu
+#SBATCH --mail-type=ALL
+
 
 #==============================================================================
 # BASH Strict mode (i.e. "fail fast" to reduce hard-to-find bugs)

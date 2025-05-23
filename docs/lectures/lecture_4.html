@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -135,16 +169,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quality-check" id="toc-quality-check" class="nav-link active" data-scroll-target="#quality-check">Quality Check</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#pipeline-outline" id="toc-pipeline-outline" class="nav-link" data-scroll-target="#pipeline-outline">Pipeline Outline</a>
+  <ul class="collapse">
+  <li><a href="#quality-check" id="toc-quality-check" class="nav-link" data-scroll-target="#quality-check">1-Quality Check</a></li>
   <li><a href="#mapping-to-reference-genome" id="toc-mapping-to-reference-genome" class="nav-link" data-scroll-target="#mapping-to-reference-genome">Mapping to Reference Genome</a>
   <ul class="collapse">
   <li><a href="#different-types-of-mappers" id="toc-different-types-of-mappers" class="nav-link" data-scroll-target="#different-types-of-mappers">Different Types of Mappers</a></li>
   <li><a href="#building-reference-indices" id="toc-building-reference-indices" class="nav-link" data-scroll-target="#building-reference-indices">Building Reference Indices</a></li>
   <li><a href="#mapping" id="toc-mapping" class="nav-link" data-scroll-target="#mapping">Mapping</a></li>
   </ul></li>
-  <li><a href="#creating-count-matrix" id="toc-creating-count-matrix" class="nav-link" data-scroll-target="#creating-count-matrix">Creating Count Matrix</a></li>
+  <li><a href="#creating-count-matrix" id="toc-creating-count-matrix" class="nav-link" data-scroll-target="#creating-count-matrix">Creating Count Matrix</a>
+  <ul class="collapse">
+  <li><a href="#manually" id="toc-manually" class="nav-link" data-scroll-target="#manually">Manually</a></li>
+  <li><a href="#featurecounts" id="toc-featurecounts" class="nav-link" data-scroll-target="#featurecounts">featureCounts</a></li>
+  </ul></li>
   <li><a href="#deseq2-anaylsis-of-differentially-expressed-genes" id="toc-deseq2-anaylsis-of-differentially-expressed-genes" class="nav-link" data-scroll-target="#deseq2-anaylsis-of-differentially-expressed-genes">DESeq2 Anaylsis of Differentially Expressed Genes</a></li>
-  <li><a href="#plotting" id="toc-plotting" class="nav-link" data-scroll-target="#plotting">Plotting</a></li>
+  </ul></li>
+  <li><a href="#full-pipeline" id="toc-full-pipeline" class="nav-link" data-scroll-target="#full-pipeline">FULL PIPELINE</a></li>
   </ul>
 </nav>
     </div>
@@ -182,29 +224,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="quality-check" class="level1">
-<h1>Quality Check</h1>
+<section id="overview" class="level1">
+<h1>Overview</h1>
 </section>
-<section id="mapping-to-reference-genome" class="level1">
-<h1>Mapping to Reference Genome</h1>
-<section id="different-types-of-mappers" class="level2">
-<h2 class="anchored" data-anchor-id="different-types-of-mappers">Different Types of Mappers</h2>
+<section id="pipeline-outline" class="level1">
+<h1>Pipeline Outline</h1>
+<section id="quality-check" class="level2">
+<h2 class="anchored" data-anchor-id="quality-check">1-Quality Check</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="building-reference-indices" class="level2">
-<h2 class="anchored" data-anchor-id="building-reference-indices">Building Reference Indices</h2>
+<section id="mapping-to-reference-genome" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-to-reference-genome">Mapping to Reference Genome</h2>
+<section id="different-types-of-mappers" class="level3">
+<h3 class="anchored" data-anchor-id="different-types-of-mappers">Different Types of Mappers</h3>
 </section>
-<section id="mapping" class="level2">
-<h2 class="anchored" data-anchor-id="mapping">Mapping</h2>
+<section id="building-reference-indices" class="level3">
+<h3 class="anchored" data-anchor-id="building-reference-indices">Building Reference Indices</h3>
+</section>
+<section id="mapping" class="level3">
+<h3 class="anchored" data-anchor-id="mapping">Mapping</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="creating-count-matrix" class="level1">
-<h1>Creating Count Matrix</h1>
+<section id="creating-count-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="creating-count-matrix">Creating Count Matrix</h2>
+<section id="manually" class="level3">
+<h3 class="anchored" data-anchor-id="manually">Manually</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="deseq2-anaylsis-of-differentially-expressed-genes" class="level1">
-<h1>DESeq2 Anaylsis of Differentially Expressed Genes</h1>
+<section id="featurecounts" class="level3">
+<h3 class="anchored" data-anchor-id="featurecounts">featureCounts</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="plotting" class="level1">
-<h1>Plotting</h1>
+</section>
+<section id="deseq2-anaylsis-of-differentially-expressed-genes" class="level2">
+<h2 class="anchored" data-anchor-id="deseq2-anaylsis-of-differentially-expressed-genes">DESeq2 Anaylsis of Differentially Expressed Genes</h2>
+</section>
+</section>
+<section id="full-pipeline" class="level1">
+<h1>FULL PIPELINE</h1>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

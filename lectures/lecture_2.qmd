@@ -9,6 +9,10 @@ date: 06/05/2025
 
 # Pipeline Outline
 
+![](../images/lecture_2/part_1.png){width=700 style="border: 2px solid black; border-radius: 5px;" fig-align=center}
+![](../images/lecture_2/part_1_1.png){width=700 style="border: 2px solid black; border-radius: 5px;" fig-align=center}
+![](../images/lecture_2/part_1_2.png){width=700 style="border: 2px solid black; border-radius: 5px;" fig-align=center}
+
 ## 0-File Management and Making Manifest for Importing
 
 ```{.bash}
@@ -147,6 +151,32 @@ qiime diversity alpha-rarefaction \
 ## FULL SCRIPT
 
 ```{.bash}
+#!/bin/bash
+#SBATCH --partition=ircfhp
+#SBATCH --nodelist=c923
+#SBATCH --container=el9hw
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=30G
+#SBATCH --chdir=/home
+#SBATCH --output=qc_%A_%a_stdout.txt
+#SBATCH --error=qc_%A_%a_stderr.txt
+#SBATCH --mail-user=eleana-cabello@ouhsc.edu
+#SBATCH --mail-type=ALL
+
+
+#==============================================================================
+# BASH Strict mode (i.e. "fail fast" to reduce hard-to-find bugs)
+set -e          # EXIT the script if any command returns non-zero exit status.
+set -E          # Make ERR trapping work inside functions too.
+set -u          # Variables must be pre-defined before using them.
+set -o pipefail # If a pipe fails, returns the error code for the failed pipe
+                #  even if it isn't the last command in a series of pipes.
+#==============================================================================
+
+ module load QIIME2/2021.8
+
 ################################################
 STEP 0
 ################################################
