@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/resource_1_oscer.html"
+    ]
+  },
+  {
+    "listing": "/lecture_slides.html",
+    "items": [
+      "/lecture_slides/lecture_1_slides.html"
+    ]
+  },
+  {
     "listing": "/lectures.html",
     "items": [
       "/lectures/lecture_1.html",
@@ -11,21 +23,9 @@
     ]
   },
   {
-    "listing": "/lecture_slides.html",
-    "items": [
-      "/lecture_slides/lecture_1_slides.html"
-    ]
-  },
-  {
     "listing": "/assignments.html",
     "items": [
       "/assignments/assignment_1.html"
-    ]
-  },
-  {
-    "listing": "/resources.html",
-    "items": [
-      "/resources/resource_1_oscer.html"
     ]
   }
 ]
